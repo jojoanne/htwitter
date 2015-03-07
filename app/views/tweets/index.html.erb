@@ -1,8 +1,11 @@
 <ul class="list-group">
 
 <% @tweets.each do |tweet| %> 	
-  <li class="list-group-item"> <%= tweet.content %> </li>
+  <li class="list-group-item"> <%= tweet.content %> | <%= tweet.user.email %> 
+   </li>
+
 <% end %>
+
 
  
   
