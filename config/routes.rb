@@ -14,7 +14,8 @@ Rails.application.routes.draw do
 
   resources :follows, only: :create 
 
-  
+
+  resources :hashtags, only: :show 
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

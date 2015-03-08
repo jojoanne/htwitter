@@ -1,7 +1,7 @@
 class Tweet < ActiveRecord::Base
 	include Twitter::Extractor 
 
-	def yolo
+	def get_hashtags
 		self.extract_hashtags(self.content)
 	end 
 
