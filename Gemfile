@@ -35,8 +35,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #gem to use forms
 gem 'simple_form' 
 
+gem 'acts_as_follower' 
 #ge m to manage users
 gem 'devise'
+
+gem 'twitter-text', '~>1.10.0' 
 
 gem 'carrierwave' 
 

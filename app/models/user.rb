@@ -6,5 +6,8 @@ class User < ActiveRecord::Base
 
   has_many :tweets
 
-  has_one :profile 
-end
+  has_one :profile
+
+  acts_as_followable  
+  acts_as_follower
+ end
